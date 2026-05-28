@@ -31,6 +31,10 @@ const SURFACES: Surface[] = [
   { name: 'family-dna', file: 'examples/creator-family-dna.html', canvas: '1684x1191' },
   { name: 'type-size-audit', file: 'examples/creator-type-size-audit.html', canvas: '1684x1191' },
   { name: 'bg-token-diagnostic', file: 'examples/creator-bg-token-diagnostic.html', canvas: '1684x1191' },
+  { name: 'radius-token-audit', file: 'examples/creator-radius-token-audit.html', canvas: '1684x1191' },
+  { name: 'muted-surface-diagnostic', file: 'examples/creator-muted-surface-diagnostic.html', canvas: '1684x1191' },
+  { name: 'ink-family-diagnostic', file: 'examples/creator-ink-family-diagnostic.html', canvas: '1684x1191' },
+  { name: 'font-grammar-audit', file: 'examples/creator-font-grammar-audit.html', canvas: '1684x1191' },
 ];
 
 interface ProofResult {

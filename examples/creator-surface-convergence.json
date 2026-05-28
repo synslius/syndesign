@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-24T10:40:34.420Z",
-  "total_surfaces": 14,
-  "with_token_layer": 14,
+  "timestamp": "2026-05-28T00:35:24.292Z",
+  "total_surfaces": 18,
+  "with_token_layer": 18,
   "without_token_layer": 0,
-  "shared_tokens": 3,
-  "diverged_tokens": 13,
-  "unique_tokens": 27,
+  "shared_tokens": 6,
+  "diverged_tokens": 12,
+  "unique_tokens": 29,
   "families": 4,
   "diverged_details": [
     {
@@ -17,10 +17,12 @@
           "surfaces": [
             "creator-bg-token-diagnostic.html",
             "creator-family-dna.html",
+            "creator-font-grammar-audit.html",
             "creator-motion-storyboard.html",
             "creator-pdf-zine.html",
             "creator-poster-surface.html",
             "creator-prompt-dna-adapter.html",
+            "creator-radius-token-audit.html",
             "creator-remotion-scene.html",
             "creator-social-card.html",
             "creator-touchdesigner-tox.html",
@@ -42,42 +44,26 @@
       ]
     },
     {
-      "token": "--amber",
-      "distinct_values": 2,
-      "values": [
-        {
-          "value": "#c47a1f",
-          "surfaces": [
-            "creator-family-dna.html",
-            "creator-motion-storyboard.html",
-            "creator-pdf-zine.html",
-            "creator-poster-surface.html",
-            "creator-prompt-dna-adapter.html",
-            "creator-social-card.html"
-          ]
-        },
-        {
-          "value": "#d4a373",
-          "surfaces": [
-            "creator-manim-scene.html"
-          ]
-        }
-      ]
-    },
-    {
       "token": "--bg",
-      "distinct_values": 3,
+      "distinct_values": 4,
       "values": [
         {
           "value": "#0b1114",
           "surfaces": [
-            "creator-browser-demo.html"
+            "creator-browser-demo.html",
+            "creator-muted-surface-diagnostic.html"
           ]
         },
         {
           "value": "#f3efe7",
           "surfaces": [
             "creator-frontier-capsule.html"
+          ]
+        },
+        {
+          "value": "#f4f0e6",
+          "surfaces": [
+            "creator-ink-family-diagnostic.html"
           ]
         },
         {
@@ -90,17 +76,24 @@
     },
     {
       "token": "--green",
-      "distinct_values": 2,
+      "distinct_values": 3,
       "values": [
         {
           "value": "#2f6f4e",
           "surfaces": [
             "creator-family-dna.html",
+            "creator-font-grammar-audit.html",
             "creator-manim-scene.html",
             "creator-motion-storyboard.html",
             "creator-pdf-zine.html",
             "creator-prompt-dna-adapter.html",
             "creator-social-card.html"
+          ]
+        },
+        {
+          "value": "#0d2818",
+          "surfaces": [
+            "creator-browser-demo.html"
           ]
         },
         {
@@ -120,11 +113,14 @@
           "surfaces": [
             "creator-bg-token-diagnostic.html",
             "creator-family-dna.html",
+            "creator-font-grammar-audit.html",
             "creator-frontier-capsule.html",
             "creator-motion-storyboard.html",
+            "creator-muted-surface-diagnostic.html",
             "creator-pdf-zine.html",
             "creator-poster-surface.html",
             "creator-prompt-dna-adapter.html",
+            "creator-radius-token-audit.html",
             "creator-social-card.html",
             "creator-type-size-audit.html"
           ]
@@ -133,7 +129,8 @@
           "value": "#111318",
           "surfaces": [
             "creator-browser-demo.html",
-            "creator-remotion-scene.html"
+            "creator-remotion-scene.html",
+            "creator-touchdesigner-tox.html"
           ]
         },
         {
@@ -152,15 +149,18 @@
     },
     {
       "token": "--line",
-      "distinct_values": 8,
+      "distinct_values": 7,
       "values": [
         {
           "value": "rgba(21,18,14,0.18)",
           "surfaces": [
+            "creator-family-dna.html",
+            "creator-font-grammar-audit.html",
             "creator-motion-storyboard.html",
             "creator-pdf-zine.html",
             "creator-poster-surface.html",
             "creator-prompt-dna-adapter.html",
+            "creator-radius-token-audit.html",
             "creator-social-card.html",
             "creator-type-size-audit.html"
           ]
@@ -169,12 +169,6 @@
           "value": "#294148",
           "surfaces": [
             "creator-browser-demo.html"
-          ]
-        },
-        {
-          "value": "rgba(244, 234, 214, 0.12)",
-          "surfaces": [
-            "creator-family-dna.html"
           ]
         },
         {
@@ -218,11 +212,15 @@
           "surfaces": [
             "creator-bg-token-diagnostic.html",
             "creator-family-dna.html",
+            "creator-font-grammar-audit.html",
             "creator-frontier-capsule.html",
+            "creator-ink-family-diagnostic.html",
             "creator-motion-storyboard.html",
+            "creator-muted-surface-diagnostic.html",
             "creator-pdf-zine.html",
             "creator-poster-surface.html",
             "creator-prompt-dna-adapter.html",
+            "creator-radius-token-audit.html",
             "creator-social-card.html",
             "creator-type-size-audit.html"
           ]
@@ -264,6 +262,14 @@
       "distinct_values": 4,
       "values": [
         {
+          "value": "#0b1114",
+          "surfaces": [
+            "creator-font-grammar-audit.html",
+            "creator-radius-token-audit.html",
+            "creator-type-size-audit.html"
+          ]
+        },
+        {
           "value": "#0f172a",
           "surfaces": [
             "creator-bg-token-diagnostic.html",
@@ -280,12 +286,6 @@
           "value": "#050914",
           "surfaces": [
             "creator-touchdesigner-tox.html"
-          ]
-        },
-        {
-          "value": "#0b1114",
-          "surfaces": [
-            "creator-type-size-audit.html"
           ]
         }
       ]
@@ -321,10 +321,12 @@
         {
           "value": "rgba(244,234,214,0.06)",
           "surfaces": [
+            "creator-font-grammar-audit.html",
             "creator-motion-storyboard.html",
             "creator-pdf-zine.html",
             "creator-poster-surface.html",
             "creator-prompt-dna-adapter.html",
+            "creator-radius-token-audit.html",
             "creator-social-card.html",
             "creator-type-size-audit.html"
           ]
@@ -370,10 +372,13 @@
           "surfaces": [
             "creator-bg-token-diagnostic.html",
             "creator-family-dna.html",
+            "creator-font-grammar-audit.html",
             "creator-motion-storyboard.html",
+            "creator-muted-surface-diagnostic.html",
             "creator-pdf-zine.html",
             "creator-poster-surface.html",
             "creator-prompt-dna-adapter.html",
+            "creator-radius-token-audit.html",
             "creator-social-card.html",
             "creator-type-size-audit.html"
           ]
@@ -427,6 +432,7 @@
             "creator-bg-token-diagnostic.html",
             "creator-browser-demo.html",
             "creator-family-dna.html",
+            "creator-radius-token-audit.html",
             "creator-type-size-audit.html"
           ]
         },
@@ -452,11 +458,11 @@
     }
   ],
   "convergence_delta": {
-    "prior_diverged_count": 13,
-    "current_diverged_count": 13,
+    "prior_diverged_count": 12,
+    "current_diverged_count": 12,
     "delta": 0,
     "trend": "stall",
-    "prior_timestamp": "2026-05-24T10:40:34.337Z",
+    "prior_timestamp": "2026-05-28T00:34:32.038Z",
     "per_token_deltas": [
       {
         "token": "--accent",
@@ -465,21 +471,15 @@
         "delta": 0
       },
       {
-        "token": "--amber",
-        "prior_distinct": 2,
-        "current_distinct": 2,
-        "delta": 0
-      },
-      {
         "token": "--bg",
-        "prior_distinct": 3,
-        "current_distinct": 3,
+        "prior_distinct": 4,
+        "current_distinct": 4,
         "delta": 0
       },
       {
         "token": "--green",
-        "prior_distinct": 2,
-        "current_distinct": 2,
+        "prior_distinct": 3,
+        "current_distinct": 3,
         "delta": 0
       },
       {
@@ -490,8 +490,8 @@
       },
       {
         "token": "--line",
-        "prior_distinct": 8,
-        "current_distinct": 8,
+        "prior_distinct": 7,
+        "current_distinct": 7,
         "delta": 0
       },
       {
@@ -586,8 +586,7 @@
         "gap_values": [
           6,
           8,
-          12,
-          16
+          12
         ],
         "padding_values": [
           3,
@@ -600,7 +599,21 @@
         "margin_values": [
           6
         ],
-        "gap_count": 4
+        "gap_count": 3
+      },
+      {
+        "file": "creator-font-grammar-audit.html",
+        "gap_values": [
+          20
+        ],
+        "padding_values": [
+          1,
+          4,
+          16,
+          20
+        ],
+        "margin_values": [],
+        "gap_count": 1
       },
       {
         "file": "creator-frontier-capsule.html",
@@ -627,6 +640,23 @@
           28
         ],
         "gap_count": 5
+      },
+      {
+        "file": "creator-ink-family-diagnostic.html",
+        "gap_values": [
+          8,
+          10,
+          32
+        ],
+        "padding_values": [
+          3,
+          6,
+          14,
+          16,
+          40
+        ],
+        "margin_values": [],
+        "gap_count": 3
       },
       {
         "file": "creator-manim-scene.html",
@@ -660,7 +690,6 @@
         "padding_values": [
           6,
           10,
-          16,
           20,
           40,
           52
@@ -670,6 +699,18 @@
           24
         ],
         "gap_count": 5
+      },
+      {
+        "file": "creator-muted-surface-diagnostic.html",
+        "gap_values": [
+          1
+        ],
+        "padding_values": [
+          2,
+          10
+        ],
+        "margin_values": [],
+        "gap_count": 1
       },
       {
         "file": "creator-p5-sketch.html",
@@ -707,16 +748,13 @@
           30,
           70
         ],
-        "margin_values": [
-          16
-        ],
+        "margin_values": [],
         "gap_count": 4
       },
       {
         "file": "creator-poster-surface.html",
         "gap_values": [
           10,
-          16,
           64
         ],
         "padding_values": [
@@ -726,7 +764,7 @@
           58
         ],
         "margin_values": [],
-        "gap_count": 3
+        "gap_count": 2
       },
       {
         "file": "creator-prompt-dna-adapter.html",
@@ -746,6 +784,20 @@
           32
         ],
         "gap_count": 4
+      },
+      {
+        "file": "creator-radius-token-audit.html",
+        "gap_values": [
+          12
+        ],
+        "padding_values": [
+          1,
+          2,
+          4,
+          10
+        ],
+        "margin_values": [],
+        "gap_count": 1
       },
       {
         "file": "creator-remotion-scene.html",
@@ -778,7 +830,6 @@
           38
         ],
         "padding_values": [
-          16,
           22,
           44
         ],

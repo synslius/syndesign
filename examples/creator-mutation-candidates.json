@@ -1,61 +1,61 @@
 {
-  "observation": "2026-05-24: type-size audit diagnostic + --space-4 token extension. creator-type-stack-normalize-route was SELECTED WINNER — diagnostic revealed h1 font-size: 10 distinct values across 11 surfaces (no shared token). --space-4 missing from family-dna and frontier-capsule. Extended --space-4 to both. --space-4: 11/11 surfaces now have spacing token layer. creator-spacing-grammar-continue-route selected as next winner — border-radius hardcoded values audit (4px-40px range, no --radius-* token layer).",
+  "observation": "Diagnostic confirmed: 0/12 surfaces define --text-* tokens in :root. Type size is fully hardcoded per-surface. Family signature (warm-paper editorial zine hierarchy) confirmed — no addressable drift. Tokenization requires explicit design decision. Deselected — no surface edits possible or advisable without design input. Type size token audit phenotype documents findings.",
   "population": "creator CSS token alignment and visual grammar unification across 11 surfaces toward DASH creative-engine warmth + industrial-brutalist constraint + zine-like economy",
   "selection_pressure": "move from proof coherence to aesthetic coherence — tighten shared tokens without homogenizing per-surface creative roles",
   "candidates": [
     {
-      "id": "creator-type-stack-normalize-route",
+      "id": "creator-ink-family-doc-route",
       "axis": "visual grammar",
-      "observation": "After font-stack normalization, warm-paper surfaces use consistent ui-sans-serif sans stack. --space-4:16px now in use. Remaining opportunity: type size normalization across h1/h2/h3 spans (78px, 44px, 39px, 29px across surfaces with no shared token).",
+      "observation": "Diagnostic confirmed --ink is a family signature: warm-paper #15120e on 9 surfaces, dark-industrial #111318 on 2 surfaces, creative-hybrid intentionally diverged. No addressable drift. Family signature confirmed — deselect candidate.",
       "candidates": [],
       "fitness": {
         "creator_utility": 4,
         "memory_retention": 5,
-        "artifact_proof": 3,
+        "artifact_proof": 4,
         "boundary_safety": 10,
         "minimal_core": 6
       },
-      "risk": "Diagnostic only: no implementable edits found. h1 tokenization requires design decision; --space-4 extension is additive but low urgency.",
+      "risk": "Diagnostic complete. No surface edits possible for family signature. Deselected.",
       "selection": "candidate",
-      "mutation": "Diagnostic phenotype: type size audit across 11 surfaces revealed h1 font-size 10 distinct values (no shared token). --space-4 token missing from family-dna and frontier-capsule. Extended --space-4 to both surfaces. All 11 surfaces now have --space-4 token layer.",
-      "phenotype": "creator-type-size-audit.html diagnostic phenotype; --space-4 extended to family-dna + frontier-capsule."
+      "mutation": "Diagnostic phenotype (creator-ink-family-diagnostic.html) confirmed --ink family signature. Deselected stale candidate. Next: font-serif-whitespace-align route.",
+      "phenotype": "creator-ink-family-diagnostic.html — fixed-canvas diagnostic showing --ink values across all 13 surfaces, family classification, 0 warm-paper addressable drift."
     },
     {
-      "id": "creator-radius-token-audit-route",
+      "id": "creator-font-sans-sans-serif-complete-route",
       "axis": "visual grammar",
-      "observation": "All 11 surfaces use hardcoded border-radius px values. No --radius-* token exists anywhere. Values range from 3px (family-dna) to 9999px (pill shapes). This is the last major spacing category without token vocabulary. Unlike --space-4, border-radius has creative format dependency (avatars need pill, cards need subtle radius, badges need small) — cannot converge without design decision.",
+      "observation": "Warm-paper surfaces now have --font-serif (PR #116) and --font-sans token layers. Non-warm-paper surfaces (browser-demo, family-dna, p5-sketch, remotion-scene) may also benefit from tokenized font references for consistency. No addressable drift — extension opportunity.",
       "candidates": [],
       "fitness": {
         "creator_utility": 3,
-        "memory_retention": 4,
+        "memory_retention": 5,
         "artifact_proof": 2,
         "boundary_safety": 10,
-        "minimal_core": 7
+        "minimal_core": 5
       },
-      "risk": "Low risk: diagnostic audit only, no surface edits planned",
+      "risk": "Non-warm-paper surfaces have intentional family grammar divergence (Georgia-direct, creative-hybrid). Token layer extension may homogenize.",
       "selection": "candidate",
-      "mutation": "Audit border-radius usage across all 11 surfaces. Produce recommendation for whether a --radius-* token layer is viable (format-dependent creative constraint vs. addressable drift). No surface edits.",
-      "phenotype": "Diagnostic audit across 11 creator HTML artifacts. No changes."
+      "mutation": "Option A: extend --font-sans to 4 remaining non-warm-paper surfaces that use ui-sans-serif in body (no :root def). Option B: deselect as intentional family signature — warm-paper completed, others intentionally diverge. Propose for choice before implementing.",
+      "phenotype": "Option A or B with creator verdict."
     },
     {
-      "id": "creator-spacing-grammar-continue-route",
+      "id": "creator-type-size-token-explore-route",
       "axis": "visual grammar",
-      "observation": "After --space-4:16px extension (11/11 surfaces now have it), the next spacing opportunity is checking whether any warm-paper surfaces still use hardcoded px values for gap/padding that could use --space-4 instead of var(). Current state: pdf-zine has --space-4 in :root but does not use var(--space-4) in body.",
+      "observation": "Type size tokenization deferred in prior slices (type-size-audit diagnostic: h1 has 10 distinct values, no shared token). The deferral note says \"tokenization requires explicit design decision before alignment.\" A next slice could propose a constrained type-size token set (e.g., --text-sm, --text-md, --text-lg) as a starter vocabulary and see if warm-paper surfaces adopt it without forcing uniformity.",
       "candidates": [],
       "fitness": {
         "creator_utility": 4,
-        "memory_retention": 5,
+        "memory_retention": 6,
         "artifact_proof": 3,
         "boundary_safety": 10,
-        "minimal_core": 7
+        "minimal_core": 5
       },
-      "risk": "Low risk: additive extension only",
+      "risk": "Diagnostic complete — no surface edits possible or advisable without explicit design decision on type scale roles and warm-paper consensus values.",
       "selection": "selected",
-      "mutation": "Audit warm-paper surfaces for hardcoded px gap/padding that could use var(--space-4). Focus on pdf-zine which has --space-4 in :root but does not use it in body. Identify which hardcoded values are close to --space-4:16px and could be replaced.",
-      "phenotype": "Diagnostic audit. No guaranteed surface edits."
+      "mutation": "Diagnostic phenotype: audits CSS font-size px values across all 12 creator surfaces. Confirms 0/12 surfaces define --text-* tokens in :root. Type size is fully hardcoded per-surface, 6-11 distinct px values per surface, ~68 total unique px values. warm-paper surfaces share editorial zine role hierarchy (body 10-14px, display 40-132px) — family signature, not addressable drift. Tokenization requires explicit design decision. No surface edits recommended without designer input.",
+      "phenotype": "creator-type-size-token-audit.html — fixed-canvas 1684x1191 diagnostic showing all 12 surfaces px value distributions by family, with verdict that type size tokenization requires design decision before any alignment."
     }
   ],
-  "winner": "creator-spacing-grammar-continue-route",
+  "winner": "creator-type-size-token-explore-route",
   "retained_routes": [
     {
       "id": "poster-surface-route",
@@ -352,14 +352,15 @@
     {
       "id": "creator-touchdesigner-token-layer-route",
       "selection": "retained",
-      "retained_as": "CSS :root token layer: 18 properties replacing 25 hardcoded values, 29 var() refs, 0/12 surfaces without token layer — closes the last surface gap",
+      "retained_as": "TouchDesigner CSS token layer (PR #68) + --ink layer addition: touchdesigner-tox gained --ink:#111318, manim-scene gained --ink:#111827 — dark-industrial family signature #111318, creative-hybrid intentional divergence #111827. All 11 retained surfaces now have complete :root token layers.",
       "proof": [
-        "bun creator:touchdesigner-tox-check (PASS)",
-        "bun measure:check -- examples/creator-touchdesigner-tox.html (1684×1191 fits)",
-        "bun creator:surface-consistency (0/12 without token layer, was 1/12)",
-        "bun creator:multi-surface-proof (11/11 measure + print PASS)",
-        "bun creator:cache-integrity (11/11 valid)",
-        "Browser DOM: 18 tokens, 29 var() refs, 0 console errors, colors match original"
+        "bun measure:check -- examples/creator-touchdesigner-tox.html (1684x1191 PASS)",
+        "bun measure:check -- examples/creator-manim-scene.html (1684x1191 PASS)",
+        "bun print:render -- examples/creator-touchdesigner-tox.html /tmp/td-tox-test.pdf (1 page, 812ms PASS)",
+        "bun print:render -- examples/creator-manim-scene.html /tmp/manim-test.pdf (1 page, 968ms PASS)",
+        "bun creator:cache-integrity (14/14 valid)",
+        "bun creator:surface-health (17/17 PASS)",
+        "bun creator:regression (28/31 PASS)"
       ]
     },
     {
@@ -608,6 +609,200 @@
       "retained_as": "Spacing grammar continuation: border-radius token layer opportunity identified but not implemented. 0 shared --radius-* tokens across all 11 surfaces. Border-radius hardcoded values range 3px–9999px. do not introduce --radius-* layer without specific creator confusion.",
       "proof": [
         "bun creator:surface-consistency (border-radius audit PASS)",
+        "bun creator:mutation-check (PASS)"
+      ]
+    },
+    {
+      "id": "creator-radius-token-audit-route",
+      "selection": "retained",
+      "retained_as": "Border-radius token audit across 12 creator surfaces — format-locked values (999px+, 50%), 8px subtle convergence only, no --radius-* token layer viable (PR #104)",
+      "proof": [
+        "bun creator:mutation-check (PASS)",
+        "bun measure:check -- examples/creator-radius-token-audit.html (1684×1191 fits)",
+        "bun creator:docs-surface-parity (PASS)"
+      ]
+    },
+    {
+      "id": "creator-family-dna-line-align-route",
+      "selection": "retained",
+      "retained_as": "warm-paper --line consensus alignment on family-dna: rgba(244,234,214,0.12) → rgba(21,18,14,0.18). family-dna 9 border:var(--line) usages now match warm-paper ink-based line color. --line converges from 8→7 distinct values (family-dna moves from unique value to consensus). All surface and regression gates pass.",
+      "proof": [
+        "bun measure:check -- examples/creator-family-dna.html",
+        "bun creator:family-dna-check (20/20 PASS)",
+        "bun creator:cache-integrity (14/14 VALID)"
+      ]
+    },
+    {
+      "id": "creator-spacing-remaining-audit-route",
+      "selection": "retained",
+      "retained_as": "spacing grammar audit + padding:16px to var(--space-4) alignment across social-card and motion-storyboard (PR #109)",
+      "proof": [
+        "bun creator:social-card-check (PASS)",
+        "bun creator:motion-storyboard-check (PASS)",
+        "bun creator:cache-integrity (14/14 valid)",
+        "PR #109 merged"
+      ]
+    },
+    {
+      "id": "creator-line-panel-token-explore-route",
+      "selection": "retained",
+      "retained_as": "line-panel diagnostic — warm-paper family already converged at --line=rgba(21,18,14,0.18) and --panel=rgba(244,234,214,0.06); --line/--panel serve separate visual grammar roles, not addressable drift",
+      "proof": [
+        "Surface inspection: poster, pdf-zine, social-card, motion-storyboard, family-dna all at warm-paper consensus",
+        "Dark-industrial surfaces use --line as family signature (browser-demo #294148, remotion-scene #394150, touchdesigner-tox rgba(102,227,255,.26))",
+        "creator:mutation-check PASS (3 candidates, 1 selected)"
+      ]
+    },
+    {
+      "id": "creator-muted-surface-explore-route",
+      "selection": "retained",
+      "retained_as": "Visual grammar --muted family signature diagnostic",
+      "proof": [
+        "bun measure:check -- examples/creator-muted-surface-diagnostic.html",
+        "bun print:render -- examples/creator-muted-surface-diagnostic.html /tmp/creator-muted-surface-diagnostic.pdf --canvas=1684x1191"
+      ]
+    },
+    {
+      "id": "creator-ink-token-family-explore-route",
+      "selection": "retained",
+      "retained_as": "creator-ink-token-family-explore-route: --ink family signature diagnostic. Warm-paper #15120e on 9 surfaces, dark-industrial #111318 on 2 surfaces, creative-hybrid intentionally diverged. Zero warm-paper addressable drift. No surface edits needed. Family signature confirmed.",
+      "proof": [
+        "bun measure:check -- examples/creator-ink-family-diagnostic.html (1684x1191 fits)",
+        "bun print:render -- examples/creator-ink-family-diagnostic.html (3 pages, 754ms)",
+        "bun creator:mutation-check (PASS)",
+        "bun creator:docs-surface-parity (informational: diagnostic HTML not in WORKFLOW_INDEX — intentional for diagnostic phenotypes)"
+      ]
+    },
+    {
+      "id": "creator-font-grammar-audit-route",
+      "selection": "retained",
+      "retained_as": "Font grammar audit diagnostic: 0/12 surfaces define --font-serif or --font-sans in :root. ui-serif used as identifier by 7 surfaces but has no CSS definition. Georgia-direct vs ui-serif-wrapper is 4 vs 7 split — not addressable drift but token naming inconsistency. Serif/sans split is family signature.",
+      "proof": [
+        "bun measure:check -- examples/creator-font-grammar-audit.html (1684x1191 PASS)",
+        "bun print:render -- examples/creator-font-grammar-audit.html (1 page, 735ms PASS)",
+        "bun creator:mutation-check (PASS)"
+      ]
+    },
+    {
+      "id": "creator-font-serif-token-layer-route",
+      "selection": "retained",
+      "retained_as": "CSS --font-serif token layer across warm-paper family: adds --font-serif:ui-serif,Georgia,Cambria,\"Times New Roman\",serif to :root of 5 warm-paper surfaces (poster-surface, pdf-zine, social-card, motion-storyboard, prompt-dna-adapter), replaces all hardcoded ui-serif,Georgia stacks with var(--font-serif). Eliminates naming inconsistency: bare ui-serif identifier now defined as a CSS token.",
+      "proof": [
+        "bun creator:poster-check (PASS)",
+        "bun creator:pdf-zine-check (PASS)",
+        "bun creator:social-card-check (PASS)",
+        "bun creator:motion-storyboard-check (PASS)",
+        "bun creator:prompt-dna-check (PASS)",
+        "bun measure:check -- examples/creator-poster-surface.html (1684x1191 PASS)",
+        "bun measure:check -- examples/creator-pdf-zine.html (1684x1191 PASS)",
+        "bun measure:check -- examples/creator-social-card.html (1200x630 PASS)",
+        "bun measure:check -- examples/creator-motion-storyboard.html (1684x1191 PASS)",
+        "bun measure:check -- examples/creator-prompt-dna-adapter.html (1684x1191 PASS)",
+        "bun creator:measure-print-cache -- --no-cache (14/14 PASS)",
+        "bun creator:cache-integrity (14/14 valid after cache refresh)"
+      ]
+    },
+    {
+      "id": "creator-font-serif-whitespace-normalize-route",
+      "selection": "retained",
+      "retained_as": "font-serif whitespace normalization: motion-storyboard --font-serif aligned to warm-paper consensus form (space after colon). All 5 warm-paper surfaces now share identical --font-serif value. Whitespace-only cosmetic normalization, near-zero visual risk.",
+      "proof": [
+        "bun creator:motion-storyboard-check (PASS)",
+        "bun measure:check -- examples/creator-motion-storyboard.html (1684x1191 PASS)",
+        "bun creator:cache-integrity (14/14 valid)",
+        "PR #121 merged"
+      ]
+    },
+    {
+      "id": "creator-type-stack-normalize-route",
+      "selection": "retained",
+      "retained_as": "creator-type-stack-normalize-route: diagnostic phenotypes (type-size-audit.html, radius-token-audit.html) + partial spacing alignment (PR #109). Type size tokenization deferred pending design decision. Token stack normalization deferred to font-sans token layer approach.",
+      "proof": [
+        "bun creator:mutation-check (PASS)",
+        "bun creator:docs-surface-parity (informational warnings only)",
+        "bun measure:check -- examples/creator-type-size-audit.html (1684x1191 fits)",
+        "bun print:render -- examples/creator-type-size-audit.html (2 pages)"
+      ]
+    },
+    {
+      "id": "creator-font-sans-token-layer-route",
+      "selection": "retained",
+      "retained_as": "CSS --font-sans token layer across 5 warm-paper surfaces: adds --font-sans:ui-sans-serif,system-ui,... to :root, replaces hardcoded stack with var(--font-sans). All measure+print 5/5 PASS, 14/14 cache-integrity valid, 18/18 surface-health PASS.",
+      "proof": [
+        "bun measure:check -- examples/creator-poster-surface.html (1684x1191 PASS)",
+        "bun measure:check -- examples/creator-pdf-zine.html (1684x1191 PASS)",
+        "bun measure:check -- examples/creator-social-card.html (1200x630 PASS)",
+        "bun measure:check -- examples/creator-motion-storyboard.html (1684x1191 PASS)",
+        "bun measure:check -- examples/creator-prompt-dna-adapter.html (1684x1191 PASS)",
+        "bun creator:surface-health (18/18 PASS)",
+        "bun creator:cache-integrity (14/14 valid)",
+        "bun creator:mutation-check (PASS)"
+      ]
+    },
+    {
+      "id": "creator-surface-convergence-next-route",
+      "selection": "retained",
+      "retained_as": "Warm-paper --space-4 body CSS audit diagnostic: confirms var(--space-4) usage already complete across warm-paper family (0 hardcoded 16px gap/padding/margin). Token layer participation verified on all 11 surfaces. All 12 convergence tokens stalled (0 delta). Spacing grammar opportunity exhausted for warm-paper family.",
+      "proof": [
+        "bun creator:surface-consistency (12/12 tokens stalled, 0 delta)",
+        "node -e spacing audit (0 hardcoded 16px in warm-paper body CSS)",
+        "bun creator:mutation-check (PASS)"
+      ]
+    },
+    {
+      "id": "creator-font-sans-circular-fix-route",
+      "selection": "retained",
+      "retained_as": "warm-paper --font-sans circular reference fix across 5 surfaces",
+      "proof": [
+        "bun creator:poster-check (PASS)",
+        "bun creator:social-card-check (PASS)",
+        "bun creator:pdf-zine-check (PASS)",
+        "bun creator:prompt-dna-check (PASS)",
+        "bun creator:cache-integrity (14/14 valid)"
+      ]
+    },
+    {
+      "id": "creator-type-stack-normalize-v2",
+      "selection": "retained",
+      "retained_as": "warm-paper --font-sans token layer consistency fix",
+      "proof": [
+        "bun creator:motion-storyboard-check (PASS)",
+        "bun creator:poster-check (PASS)",
+        "bun creator:social-card-check (PASS)",
+        "bun creator:pdf-zine-check (PASS)",
+        "bun creator:prompt-dna-check (PASS)"
+      ]
+    },
+    {
+      "id": "creator-font-sans-circular-fix-comprehensive-route",
+      "selection": "retained",
+      "retained_as": "CSS --font-sans circular reference fix across 4 remaining warm-paper surfaces; fixes poster-surface, social-card, pdf-zine, prompt-dna-adapter :root --font-sans:var(--font-sans) → proper --font-sans:ui-sans-serif,system-ui,...; also fixes social-card .stamp span hardcoded font-family → var(--font-sans). All 5 warm-paper surfaces now have correct --font-sans token layer.",
+      "proof": [
+        "bun creator:poster-check",
+        "bun creator:social-card-check",
+        "bun creator:pdf-zine-check",
+        "bun creator:prompt-dna-check",
+        "bun measure:check -- examples/creator-poster-surface.html"
+      ]
+    },
+    {
+      "id": "creator-font-sans-non-warm-paper-extend-route",
+      "selection": "retained",
+      "retained_as": "Non-warm-paper font family signature diagnostic: confirms 0 addressable drift across 6 non-warm-paper surfaces (dark-industrial, creative-hybrid). Family signature confirmed — no surface edits needed. Diagnostic phenotype documents --font-sans status across all 11 surfaces.",
+      "proof": [
+        "bun measure:check -- examples/creator-non-warm-paper-font-diagnostic.html (1684x1191 PASS)",
+        "bun print:render -- examples/creator-non-warm-paper-font-diagnostic.html (1 page, 815ms PASS)",
+        "bun creator:mutation-check (PASS)",
+        "bun creator:docs-surface-parity (PASS)"
+      ]
+    },
+    {
+      "id": "creator-type-size-token-audit-route",
+      "selection": "retained",
+      "retained_as": "Type size token audit diagnostic: confirms 0/12 surfaces define --text-* tokens in :root. Type size fully hardcoded, 6-11 distinct px values per surface. Family signature confirmed — editorial zine role hierarchy differs by design intent, not drift. Tokenization requires explicit design decision. No surface edits recommended without designer input. Phenotype: creator-type-size-token-audit.html.",
+      "proof": [
+        "bun measure:check -- examples/creator-type-size-token-audit.html (1684x1191 fits)",
+        "bun print:render -- examples/creator-type-size-token-audit.html (3 pages, 1020ms)",
         "bun creator:mutation-check (PASS)"
       ]
     }
